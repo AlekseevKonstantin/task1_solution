@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Регистрация</title>
+
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/reg-style.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+ 
+</head>
+<body>
+    <div class="container">
+      <div class="row">
+        <form class="form-horizontal col-sm-12">
+            <div class="form-group">
+              <h2 class="custom-form-head">Регистрация </h2>
+              <p class="custom-form-caption"> Необходимо заполнить поля, помеченные звёздочкой (*)</p>
+            </div>
+          <div class="form-group">
+            <div class="col-sm-6 col-md-4 inner-addon left-addon m-b-12">
+              <i class="fas fa-envelope fa-fw"></i>
+              <input type="email" class="form-control" placeholder="Email*">
+            </div>
+
+            <div class="col-sm-6 col-md-4 inner-addon left-addon m-b-12">
+              <i class="fas fa-user fa-fw"></i>
+              <input type="text" class="form-control" placeholder="ФИО*">
+            </div>
+
+            <div class="col-sm-6 col-md-4 inner-addon left-addon m-b-12">
+              <i class="fas fa-question-circle fa-fw"></i>
+              <select class="form-control">
+                <option selected>Я-заказчик</option>
+                <option>Я-не заказчик</option>
+              </select>
+            </div>
+
+            <div class="col-sm-6 col-md-4 inner-addon left-addon m-b-12">
+              <i class="fas fa-globe fa-fw"></i>
+              <select class="form-control">
+                <option selected>СПб</option>
+                <option>Москва</option>
+                <option>Екатеринбург</option>
+              </select>
+            </div>  
+
+            <div class="col-sm-6 col-md-4 inner-addon left-addon m-b-12">
+              <i class="fas fa-mobile fa-fw"></i>
+              <input type="text" class="form-control" placeholder="Мобильный телефон*">
+            </div>
+
+            <div class="col-sm-6 col-md-4 inner-addon left-addon m-b-12">
+              <i class="fas fa-star fa-fw"></i>
+              <input type="text" class="form-control" placeholder="Промокод (если есть)">
+            </div>
+
+            <div class="col-sm-6 inner-addon left-addon m-b-12">
+                <i class="fas fa-lock fa-fw"></i>
+                <input type="text" class="form-control" placeholder="Пароль*">
+              </div>
+              <div class="col-sm-6 inner-addon left-addon m-b-12">
+                <i class="fas fa-lock fa-fw"></i>
+                <input type="text" class="form-control" placeholder="Пароль еще раз*">
+              </div>  
+          </div>
+
+          <div class="form-group m-t-11">
+            <div class="col-sm-12 col-md-8 do-flex">
+              <button type="submit" class="btn custom-btn-reg">Зарегистрироваться</button>
+              <p class="custom-reg-msg">Нажимая на кнопку «Зарегистрироваться», Вы соглашаетесь на обработку персональных данных в 
+                соответствии с пользовательским соглашением
+              </p>
+            </div>
+          </div>
+        </form>
+      </div>    
+    </div>  
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>

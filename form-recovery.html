@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Форма востановления пароля</title>
+
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/rec-style.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+ 
+</head>
+<body>
+
+    <div class="container">
+      <div class="row">
+        <form class="form-horizontal col-sm-12 do-flex flex-direction-column">
+          <div class="form-group">
+            <h2 class="custom-form-head">Восстановление пароля</h2>
+          </div>
+
+          <div class="form-group">
+            <div class="col-sm-12 m-b-20">              
+              <label for="email" class="custom-form-label">Телефон или E-mail*</label>
+              <input type="email" class="form-control" id="email" placeholder="">
+            </div>
+            <div class="col-sm-12 m-b-10">              
+              <label for="kod" class="custom-form-label">Код с картинки</label>
+              <input type="text" class="form-control" id="kod" placeholder="">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <div class="w-150 m-l-10 do-flex">
+              <img src="img-rec/kod.png" alt="kod" class="rec-kod">
+              <button class="custom-kod-caption do-flex">
+                <i class="fas fa-redo"></i>  
+                <span>Обновить</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <div class="col-sm-12 do-flex do-flex-direction-column">
+                <button type="submit" class="btn custom-btn-enter">Получить код</button>
+                <p class="custom-enter-msg">Нажимая на кнопку «Зарегистрироваться», Вы соглашаетесь на обработку персональных данных в 
+                  соответствии <a href="#">с пользовательским соглашением</a>
+                </p>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>          
+  
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.js"></script>
+</body>
+</html>
