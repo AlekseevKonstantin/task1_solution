@@ -3,7 +3,7 @@ a, a:hover{
   text-decoration: none;
 }
 
-.left-col{
+.kurierchikof-rs-modal .left-col{
   position: relative;
   background-color: #fff;
   width: 58%;
@@ -11,7 +11,7 @@ a, a:hover{
   border-bottom-left-radius: 15px;
 }
 
-.right-col{
+.kurierchikof-rs-modal .right-col{
   position: relative;
   height: 358px;
   width: 42%;
@@ -21,11 +21,11 @@ a, a:hover{
   border-bottom-right-radius: 15px;
 }
 
-.btn-group{
+.kurierchikof-rs-modal .btn-group{
   margin-top: 10px;
 }
 
-.input-field{
+.kurierchikof-rs-modal .input-field{
   background-color: #f4f8f7 !important;
   color: #929594 !important;
   border: none;
@@ -33,7 +33,7 @@ a, a:hover{
   border-radius: 0;
 }
 
-.custom-btn-enter{
+.kurierchikof-rs-modal .custom-btn-enter{
   background-color: #54af3a;
   color: #fff;
   padding: 8px 28px 9px 28px;
@@ -44,18 +44,18 @@ a, a:hover{
   text-align: center;
 }
 
-.custom-btn-enter:hover{
+.kurierchikof-rs-modal .custom-btn-enter:hover{
   color: #fff;
 }
 
-.custom-link-pass{
+.kurierchikof-rs-modal .custom-link-pass{
   margin-left: 19px;
   font-size: 13px;
   color: rgb(146, 149, 148);
   font-weight: bold;
 }
 
-.custom-text-msg{
+.kurierchikof-rs-modal .custom-text-msg{
   font-size: 12px;
   color: rgb(146, 149, 148);
   line-height: 1.2;
@@ -66,12 +66,12 @@ a, a:hover{
   padding-left: 7px;
 }
 
-.custom-text-msg a{
+.kurierchikof-rs-modal .custom-text-msg a{
   color: rgb(146, 149, 148);
   text-decoration: underline;
 }
 
-.custom-btn-close{
+.kurierchikof-rs-modal .custom-btn-close{
   position: absolute;
   top: 12px;
   right: 12px;
@@ -83,20 +83,20 @@ a, a:hover{
   opacity: 1;
 }
 
-.custom-modal-title-grey{
+.kurierchikof-rs-modal .custom-modal-title-grey{
   font-size: 26px;
   color: rgb(68, 68, 68);
   font-weight: 500;
 }
 
-.custom-modal-title-white{
+.kurierchikof-rs-modal .custom-modal-title-white{
   color: #fff;
   font-size: 26px;
   font-weight: 500;
   text-align: center;
 }
 
-.custom-modal-caption{
+.kurierchikof-rs-modal .custom-modal-caption{
   font-size: 13px;
   color: rgb(255, 255, 255);
   font-weight: 500;
@@ -106,7 +106,7 @@ a, a:hover{
   padding: 0 20px;
 }
 
-.custom-btn-default{
+.kurierchikof-rs-modal .custom-btn-default{
   color: #fff;
   border-color: #fff;
   background-color: transparent;
@@ -117,13 +117,13 @@ a, a:hover{
   text-align: center;
 }
 
-.custom-btn-default:hover{
+.kurierchikof-rs-modal .custom-btn-default:hover{
   background-color: transparent;
   color: #fff;
   border-color: #fff;
 }
 
-.right-col-img{
+.kurierchikof-rs-modal .right-col-img{
   position: absolute;
   bottom: 0%;
   right: -7%;
@@ -131,7 +131,7 @@ a, a:hover{
   height: auto;
 }
 
-.left-col-img{
+.kurierchikof-rs-modal .left-col-img{
   position: absolute;
   top: -8%;
   left: -9.5%;
@@ -139,28 +139,28 @@ a, a:hover{
   height: 99px;
 }
 
-.m-t-31{
+.kurierchikof-rs-modal .m-t-31{
   margin-top: 31px;
 }
 
-.do-flex{
+.kurierchikof-rs-modal .do-flex{
   display: flex;
 }
 
-.do-direction-column{
+.kurierchikof-rs-modal .do-direction-column{
   flex-direction: column;
 }
 
-.do-align-center{
+.kurierchikof-rs-modal .do-align-center{
   align-items: center;
 }
 
 /* style fas */
-.inner-addon {
+.kurierchikof-rs-modal .inner-addon {
   position: relative;
 }
 
-.inner-addon .fas {
+.kurierchikof-rs-modal .inner-addon .fas {
   position: absolute;
   padding: 10px;
   pointer-events: none;
@@ -168,25 +168,25 @@ a, a:hover{
 }
 
 /* align fas */
-.left-addon .fas  { left:  15px;}
-.right-addon .fas { right: 0px;}
+.kurierchikof-rs-modal .left-addon .fas  { left:  15px;}
+.kurierchikof-rs-modal .right-addon .fas { right: 0px;}
 
 /* add padding  */
-.left-addon input  { padding-left: 34px; }
-.right-addon input { padding-right: 30px; }
+.kurierchikof-rs-modal .left-addon input  { padding-left: 34px; }
+.kurierchikof-rs-modal .right-addon input { padding-right: 30px; }
 
 /* reload bootsrap classes */
-.modal-content{
+.kurierchikof-rs-modal .modal-content{
   box-shadow: none;
 }
 
-.row{
+.kurierchikof-rs-modal .row{
   display: flex;
   margin-right: -16px;
   margin-left: -16px;
 }
 
-.modal-dialog{
+.kurierchikof-rs-modal .modal-dialog{
   width: 711px ;
   height: 358px !important;
   font-family: 'Open Sans', sans-serif;
@@ -194,49 +194,49 @@ a, a:hover{
 }
 
 @media (max-width: 768px) {
-  .modal-dialog{
+  .kurierchikof-rs-modal .modal-dialog{
     width: 600px;
   }
 
-  .left-col-img{
+  .kurierchikof-rs-modal .left-col-img{
     top: -10%;
     left: -12%;
   }
 
-  .form-horizontal{
+  .kurierchikof-rs-modal .form-horizontal{
     margin-left: 0 !important;
   }
 
-  .custom-modal-title-grey,
-  .custom-modal-title-white{
+  .kurierchikof-rs-modal .custom-modal-title-grey,
+  .kurierchikof-rs-modal .custom-modal-title-white{
     font-size: 23px;
   }
 }
 
-.modal-title{
+.kurierchikof-rs-modal .modal-title{
   margin-top: 49px;
 }
 
-.form-horizontal{
+.kurierchikof-rs-modal .form-horizontal{
   margin-left: 30px;
 }
 
-.modal-header{
+.kurierchikof-rs-modal .modal-header{
   border-bottom: none;
 }
 
-.modal-body{
+.kurierchikof-rs-modal .modal-body{
   padding-top: 0;
   padding-bottom: 0;
 }
 
-.modal-content{
+.kurierchikof-rs-modal .modal-content{
   border-radius: 15px; 
   border: none;
   outline: none;
   box-shadow: none;
 }
 
-.form-group{
+.kurierchikof-rs-modal .form-group{
   margin-bottom: 10px;
 }
