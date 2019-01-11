@@ -6,13 +6,14 @@
   line-height: 0.571;
   text-align: center;
   margin-top: 61px;
-  margin-bottom: 47px;
+  margin-bottom: 37px;
 }
 
 .kurierchikof-rs-form-recovery .custom-form-label{
   font-size: 14px;
-  color: rgb(66, 66, 66);
+  color: #424242;
   line-height: 1.2;
+  font-weight: normal;
 }
 
 .kurierchikof-rs-form-recovery .custom-kod-caption{
@@ -41,9 +42,10 @@
   font-weight: bold;
   line-height: 1.538;
   text-align: center;
-  padding: 12px 26px 10px 26px;
+  padding: 13px 33px 11px 33px;
+  font-family: 'PT Sans', sans-serif;
 }
-
+  
 .kurierchikof-rs-form-recovery .custom-btn-enter:hover{
   color: #fff;
 }
@@ -60,6 +62,11 @@
 .kurierchikof-rs-form-recovery .custom-enter-msg a{
   color: rgb(146, 149, 148);
   text-decoration: underline;
+}
+
+.kurierchikof-rs-form-recovery .custom-img-wrapper{
+  width: 120px;
+  height: 50px;
 }
 
 .kurierchikof-rs-form-recovery .do-flex{
@@ -85,6 +92,10 @@
 
 .kurierchikof-rs-form-recovery .m-l-10{
   margin-left: 10px;
+}
+
+.kurierchikof-rs-form-recovery .m-t-15{
+  margin-top: 15px;
 }
 
 .kurierchikof-rs-form-recovery .rec-kod{
@@ -125,10 +136,12 @@
   
   .kurierchikof-rs-form-recovery .custom-btn-enter{
     margin-bottom: 15px;
+    align-self: flex-start;
   }
 
   .kurierchikof-rs-form-recovery .custom-enter-msg{
     margin-left: 0;
+    width: 100%;
   }
 }
 

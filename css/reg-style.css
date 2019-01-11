@@ -1,3 +1,17 @@
+.kurierchikof-rs-form-reg select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.kurierchikof-rs-form-reg select::-ms-expand {
+  display: none;
+}
+
+.kurierchikof-rs-form-reg select:hover{
+  cursor: pointer;
+}
+
 /* custom styles */
 .kurierchikof-rs-form-reg .custom-form-head{
   font-size: 35px;
@@ -14,18 +28,18 @@
   line-height: 1.2;
   text-align: center;
   margin-top: 29px;
-  margin-bottom: 45px;
+  margin-bottom: 35px;
   padding: 0 15px;
 }
 
 .kurierchikof-rs-form-reg .custom-btn-reg{
+  font-family: 'PT Sans', sans-serif;
   background-color: rgb(84, 175, 58);
   font-size: 13px;
   color: rgb(255, 255, 255);
-  font-weight: bold;
-  line-height: 1.538;
+  font-weight: normal;
   text-align: center;
-  padding: 11px 23px 10px 22px;
+  padding: 11px 32px 10px 32px;
   margin-right: 18px;
 }
 
@@ -49,10 +63,12 @@
 @media (max-width: 470px) {
   .kurierchikof-rs-form-reg .do-flex{
     flex-direction: column;
+    align-items: flex-start;
   }
 
   .kurierchikof-rs-form-reg .custom-reg-msg{
     margin-top: 15px;
+    width: 100%;
   }
 }
 
@@ -65,20 +81,27 @@
 }
 
 /* align fas */
-.kurierchikof-rs-form-reg .left-addon .fas { 
-  left:  15px;
+.kurierchikof-rs-form-reg .left-addon .custom-icon { 
+  left:  20px;
+  top: 2px;
 }
-.kurierchikof-rs-form-reg .right-addon .fas { 
+.kurierchikof-rs-form-reg .right-addon .custom-icon { 
   right: 0px;
+}
+
+.kurierchikof-rs-form-reg .left-addon .custom-arrow-down{
+  right: 18px;
+  top: 2px;
+  font-size: 14px;
 }
 
 /* add padding  */
 .kurierchikof-rs-form-reg .left-addon input{ 
-  padding-left: 34px; 
+  padding-left: 39px; 
 }
 
 .kurierchikof-rs-form-reg .left-addon select{
-  padding-left: 30px;
+  padding-left: 39px;
 }
 
 .kurierchikof-rs-form-reg .right-addon input,
@@ -94,6 +117,24 @@
   margin-top: 11px;
 }
 
+@media (min-width: 992px) {
+  .kurierchikof-rs-form-reg .p-r-0{
+    padding-right: 0 !important;
+  }
+
+  .kurierchikof-rs-form-reg .p-l-0{
+    padding-left: 0 !important;
+  }
+
+  .kurierchikof-rs-form-reg .p-l-7_5{
+    padding-left: 7.5px !important;
+  }
+
+  .kurierchikof-rs-form-reg .p-r-7_5{
+    padding-right: 7.5px !important;
+  }
+}
+
 /* reload bootrap styles */
 .kurierchikof-rs-form-reg .form-horizontal{
   font-family: 'Open Sans', sans-serif; 
@@ -106,4 +147,6 @@
   color: #929594;
   border: none;
   outline: none;
+  height: 39px;  
+  box-shadow: none;
 }

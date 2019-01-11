@@ -26,21 +26,22 @@ a, a:hover{
 }
 
 .kurierchikof-rs-modal .input-field{
+  font-size: 13px;
   background-color: #f4f8f7 !important;
   color: #929594 !important;
   border: none;
   outline: none;
   border-radius: 0;
+  box-shadow: none;
 }
 
 .kurierchikof-rs-modal .custom-btn-enter{
+  font-family: 'PT Sans', sans-serif;
   background-color: #54af3a;
   color: #fff;
-  padding: 8px 28px 9px 28px;
-  font-weight: bold;
+  padding: 13px 30px 12px 30px;
   font-size: 13px;
   border: none;
-  line-height: 1.538;
   text-align: center;
 }
 
@@ -61,7 +62,7 @@ a, a:hover{
   line-height: 1.2;
   text-align: left;
   height: 40px;
-  margin-top: 21px;
+  margin-top: 9px;
   padding-right: 15px;
   padding-left: 7px;
 }
@@ -90,10 +91,9 @@ a, a:hover{
 }
 
 .kurierchikof-rs-modal .custom-modal-title-white{
-  color: #fff;
-  font-size: 26px;
-  font-weight: 500;
+  color: #fff !important;
   text-align: center;
+  margin-left: -12px;
 }
 
 .kurierchikof-rs-modal .custom-modal-caption{
@@ -102,8 +102,9 @@ a, a:hover{
   font-weight: 500;
   line-height: 1.538;
   text-align: center;
-  margin-top: 2px;
+  margin-top: 8px;
   padding: 0 20px;
+  width: 100%;
 }
 
 .kurierchikof-rs-modal .custom-btn-default{
@@ -143,6 +144,10 @@ a, a:hover{
   margin-top: 31px;
 }
 
+.kurierchikof-rs-modal .w-100p{
+  width: 100%;
+}
+
 .kurierchikof-rs-modal .do-flex{
   display: flex;
 }
@@ -168,11 +173,11 @@ a, a:hover{
 }
 
 /* align fas */
-.kurierchikof-rs-modal .left-addon .fas  { left:  15px;}
+.kurierchikof-rs-modal .left-addon .fas  { left:  20px;}
 .kurierchikof-rs-modal .right-addon .fas { right: 0px;}
 
 /* add padding  */
-.kurierchikof-rs-modal .left-addon input  { padding-left: 34px; }
+.kurierchikof-rs-modal .left-addon input  { padding-left: 39px; }
 .kurierchikof-rs-modal .right-addon input { padding-right: 30px; }
 
 /* reload bootsrap classes */
@@ -214,11 +219,14 @@ a, a:hover{
 }
 
 .kurierchikof-rs-modal .modal-title{
-  margin-top: 49px;
+  margin-top: 44px;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 26px;
+  color: #444444;
 }
 
 .kurierchikof-rs-modal .form-horizontal{
-  margin-left: 30px;
+  margin-left: 25px
 }
 
 .kurierchikof-rs-modal .modal-header{
