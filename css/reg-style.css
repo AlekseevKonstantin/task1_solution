@@ -77,10 +77,14 @@
   top: 2px;
 }
 
-.kurierchikof-rs-form-reg .left-addon .custom-arrow-down {
-  right: 3px;
+.kurierchikof-rs-form-reg .left-addon .custom-arrow-down,
+.kurierchikof-rs-form-reg .left-addon .custom-arrow-down15 {
   top: 0px;
   font-size: 14px;
+}
+
+.kurierchikof-rs-form-reg .left-addon .custom-arrow-down{
+  right: 25px;
 }
 
 /* add padding  */
@@ -135,20 +139,16 @@
     left: 5px !important;
   }
 
-  .kurierchikof-rs-form-reg .p-l-0 .custom-arrow-down {
-    right: 18px !important;
-  }
-
   .kurierchikof-rs-form-reg .p-l-7_5 {
     padding-left: 7.5px !important;
   }
 
-  .kurierchikof-rs-form-reg .p-l-7_5 .custom-icon {
-    left: 12px !important;
-  }
-
   .kurierchikof-rs-form-reg .p-r-7_5 {
     padding-right: 7.5px !important;
+  }
+
+  .kurierchikof-rs-form-reg .left-addon .custom-arrow-down15{
+    right: 10px !important;
   }
 }
 
