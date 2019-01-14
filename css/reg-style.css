@@ -90,8 +90,8 @@
 }
 
 .kurierchikof-rs-form-reg .left-addon .custom-arrow-down{
-  right: 18px;
-  top: 2px;
+  right: 3px;
+  top: 0px;
   font-size: 14px;
 }
 
@@ -126,8 +126,20 @@
     padding-left: 0 !important;
   }
 
+  .kurierchikof-rs-form-reg .p-l-0 .custom-icon{
+    left: 5px !important;
+  }
+
+  .kurierchikof-rs-form-reg .p-l-0 .custom-arrow-down{
+    right: 18px !important;
+  }
+
   .kurierchikof-rs-form-reg .p-l-7_5{
     padding-left: 7.5px !important;
+  }
+
+  .kurierchikof-rs-form-reg .p-l-7_5 .custom-icon{
+    left: 12px !important;
   }
 
   .kurierchikof-rs-form-reg .p-r-7_5{
