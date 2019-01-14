@@ -8,12 +8,13 @@
   display: none;
 }
 
-.kurierchikof-rs-form-reg select:hover{
+.kurierchikof-rs-form-reg select:hover {
   cursor: pointer;
 }
 
 /* custom styles */
-.kurierchikof-rs-form-reg .custom-form-head{
+
+.kurierchikof-rs-form-reg .custom-form-head {
   font-size: 35px;
   color: rgb(66, 66, 66);
   text-transform: uppercase;
@@ -22,7 +23,7 @@
   margin-top: 61px;
 }
 
-.kurierchikof-rs-form-reg .custom-form-caption{
+.kurierchikof-rs-form-reg .custom-form-caption {
   font-size: 18px;
   color: rgb(97, 97, 97);
   line-height: 1.2;
@@ -32,7 +33,7 @@
   padding: 0 15px;
 }
 
-.kurierchikof-rs-form-reg .custom-btn-reg{
+.kurierchikof-rs-form-reg .custom-btn-reg {
   font-family: 'PT Sans', sans-serif;
   background-color: rgb(84, 175, 58);
   font-size: 13px;
@@ -43,11 +44,11 @@
   margin-right: 18px;
 }
 
-.kurierchikof-rs-form-reg .custom-btn-reg:hover{
+.kurierchikof-rs-form-reg .custom-btn-reg:hover {
   color: #fff;
 }
 
-.kurierchikof-rs-form-reg .custom-reg-msg{
+.kurierchikof-rs-form-reg .custom-reg-msg {
   font-size: 12px;
   color: rgb(146, 149, 148);
   line-height: 1.2;
@@ -55,24 +56,13 @@
   margin-bottom: 0;
 }
 
-.kurierchikof-rs-form-reg .do-flex{
+.kurierchikof-rs-form-reg .do-flex {
   display: flex;
   align-items: center;
 }
 
-@media (max-width: 470px) {
-  .kurierchikof-rs-form-reg .do-flex{
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .kurierchikof-rs-form-reg .custom-reg-msg{
-    margin-top: 15px;
-    width: 100%;
-  }
-}
-
 /* style fas */
+
 .kurierchikof-rs-form-reg .inner-addon .fas {
   position: absolute;
   padding: 10px;
@@ -81,84 +71,95 @@
 }
 
 /* align fas */
-.kurierchikof-rs-form-reg .left-addon .custom-icon { 
-  left:  20px;
+
+.kurierchikof-rs-form-reg .left-addon .custom-icon {
+  left: 20px;
   top: 2px;
 }
-.kurierchikof-rs-form-reg .right-addon .custom-icon { 
-  right: 0px;
-}
 
-.kurierchikof-rs-form-reg .left-addon .custom-arrow-down{
+.kurierchikof-rs-form-reg .left-addon .custom-arrow-down {
   right: 3px;
   top: 0px;
   font-size: 14px;
 }
 
 /* add padding  */
-.kurierchikof-rs-form-reg .left-addon input{ 
-  padding-left: 39px; 
-}
 
-.kurierchikof-rs-form-reg .left-addon select{
+.kurierchikof-rs-form-reg .left-addon input {
   padding-left: 39px;
 }
 
-.kurierchikof-rs-form-reg .right-addon input,
-.kurierchikof-rs-form-reg .left-addon select{ 
-  padding-right: 30px; 
+.kurierchikof-rs-form-reg .left-addon select {
+  padding-left: 39px;
 }
 
-.kurierchikof-rs-form-reg .m-b-12{
+.kurierchikof-rs-form-reg .left-addon select {
+  padding-right: 30px;
+}
+
+.kurierchikof-rs-form-reg .m-b-12 {
   margin-bottom: 12px;
 }
 
-.kurierchikof-rs-form-reg .m-t-11{
+.kurierchikof-rs-form-reg .m-t-11 {
   margin-top: 11px;
 }
 
-@media (min-width: 992px) {
-  .kurierchikof-rs-form-reg .p-r-0{
-    padding-right: 0 !important;
-  }
-
-  .kurierchikof-rs-form-reg .p-l-0{
-    padding-left: 0 !important;
-  }
-
-  .kurierchikof-rs-form-reg .p-l-0 .custom-icon{
-    left: 5px !important;
-  }
-
-  .kurierchikof-rs-form-reg .p-l-0 .custom-arrow-down{
-    right: 18px !important;
-  }
-
-  .kurierchikof-rs-form-reg .p-l-7_5{
-    padding-left: 7.5px !important;
-  }
-
-  .kurierchikof-rs-form-reg .p-l-7_5 .custom-icon{
-    left: 12px !important;
-  }
-
-  .kurierchikof-rs-form-reg .p-r-7_5{
-    padding-right: 7.5px !important;
-  }
-}
-
 /* reload bootrap styles */
-.kurierchikof-rs-form-reg .form-horizontal{
-  font-family: 'Open Sans', sans-serif; 
+
+.kurierchikof-rs-form-reg .form-horizontal {
+  font-family: 'Open Sans', sans-serif;
 }
 
 .kurierchikof-rs-form-reg .form-group input,
-.kurierchikof-rs-form-reg .form-group select{
+.kurierchikof-rs-form-reg .form-group select {
   border-radius: 0;
   background-color: #f4f8f7;
   color: #929594;
   border: none;
   outline: none;
-  height: 39px;  
+  height: 39px;
   box-shadow: none;
+}
+
+@media (min-width: 992px) {
+  .kurierchikof-rs-form-reg .p-r-0 {
+    padding-right: 0 !important;
+  }
+
+  .kurierchikof-rs-form-reg .p-l-0 {
+    padding-left: 0 !important;
+  }
+
+  .kurierchikof-rs-form-reg .p-l-0 .custom-icon {
+    left: 5px !important;
+  }
+
+  .kurierchikof-rs-form-reg .p-l-0 .custom-arrow-down {
+    right: 18px !important;
+  }
+
+  .kurierchikof-rs-form-reg .p-l-7_5 {
+    padding-left: 7.5px !important;
+  }
+
+  .kurierchikof-rs-form-reg .p-l-7_5 .custom-icon {
+    left: 12px !important;
+  }
+
+  .kurierchikof-rs-form-reg .p-r-7_5 {
+    padding-right: 7.5px !important;
+  }
+}
+
+@media (max-width: 470px) {
+  .kurierchikof-rs-form-reg .do-flex {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .kurierchikof-rs-form-reg .custom-reg-msg {
+    margin-top: 15px;
+    width: 100%;
+  }
 }

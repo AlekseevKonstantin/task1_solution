@@ -1,5 +1,6 @@
 /* custom styles */
-.kurierchikof-rs-form-recovery .custom-form-head{
+
+.kurierchikof-rs-form-recovery .custom-form-head {
   font-size: 35px;
   color: rgb(66, 66, 66);
   text-transform: uppercase;
@@ -9,14 +10,14 @@
   margin-bottom: 37px;
 }
 
-.kurierchikof-rs-form-recovery .custom-form-label{
+.kurierchikof-rs-form-recovery .custom-form-label {
   font-size: 14px;
   color: #424242;
   line-height: 1.2;
   font-weight: normal;
 }
 
-.kurierchikof-rs-form-recovery .custom-kod-caption{
+.kurierchikof-rs-form-recovery .custom-kod-caption {
   font-size: 12px;
   color: rgb(146, 149, 148);
   line-height: 1.667;
@@ -27,15 +28,15 @@
   outline: none;
 }
 
-.kurierchikof-rs-form-recovery .custom-kod-caption:hover{
+.kurierchikof-rs-form-recovery .custom-kod-caption:hover {
   text-decoration: none;
 }
 
-.kurierchikof-rs-form-recovery .custom-kod-caption i{
+.kurierchikof-rs-form-recovery .custom-kod-caption i {
   margin-right: 6px;
 }
 
-.kurierchikof-rs-form-recovery .custom-btn-enter{
+.kurierchikof-rs-form-recovery .custom-btn-enter {
   background-color: rgb(84, 175, 58);
   font-size: 13px;
   color: #fff;
@@ -45,12 +46,12 @@
   padding: 13px 33px 11px 33px;
   font-family: 'PT Sans', sans-serif;
 }
-  
-.kurierchikof-rs-form-recovery .custom-btn-enter:hover{
+
+.kurierchikof-rs-form-recovery .custom-btn-enter:hover {
   color: #fff;
 }
 
-.kurierchikof-rs-form-recovery .custom-enter-msg{
+.kurierchikof-rs-form-recovery .custom-enter-msg {
   font-size: 12px;
   color: rgb(146, 149, 148);
   line-height: 1.2;
@@ -59,105 +60,54 @@
   margin-left: 16px;
 }
 
-.kurierchikof-rs-form-recovery .custom-enter-msg a{
+.kurierchikof-rs-form-recovery .custom-enter-msg a {
   color: rgb(146, 149, 148);
   text-decoration: underline;
 }
 
-.kurierchikof-rs-form-recovery .custom-img-wrapper{
+.kurierchikof-rs-form-recovery .custom-img-wrapper {
   width: 120px;
   height: 50px;
 }
 
-.kurierchikof-rs-form-recovery .do-flex{
+.kurierchikof-rs-form-recovery .do-flex {
   display: flex;
   align-items: center;
 }
 
-.kurierchikof-rs-form-recovery .flex-direction-column{
-  flex-direction: column
+.kurierchikof-rs-form-recovery .flex-direction-column {
+  flex-direction: column;
 }
 
-.kurierchikof-rs-form-recovery .m-b-20{
+.kurierchikof-rs-form-recovery .m-b-20 {
   margin-bottom: 20px;
 }
 
-.kurierchikof-rs-form-recovery .m-b-10{
+.kurierchikof-rs-form-recovery .m-b-10 {
   margin-bottom: 10px;
-} 
-
-.kurierchikof-rs-form-recovery .w-150{
-  width: 150px;
 }
 
-.kurierchikof-rs-form-recovery .m-l-10{
+.kurierchikof-rs-form-recovery .m-l-10 {
   margin-left: 10px;
 }
 
-.kurierchikof-rs-form-recovery .m-t-15{
+.kurierchikof-rs-form-recovery .m-t-15 {
   margin-top: 15px;
 }
 
-.kurierchikof-rs-form-recovery .rec-kod{
+.kurierchikof-rs-form-recovery .rec-kod {
   display: block;
   width: 100%;
   height: auto;
 }
 
-@media (max-width: 1000px) {
-  .kurierchikof-rs-form-recovery .form-group{
-    width: 70% !important;
-  }
-}
-
-@media (max-width: 768px) {
-  .kurierchikof-rs-form-recovery .form-group{
-    width: 90% !important;
-  }
-}
-
-@media (max-width: 568px) {
-  
-  .kurierchikof-rs-form-recovery .form-group{
-    width: 100%;
-  }
-
-  .kurierchikof-rs-form-recovery .form-horizontal{
-    padding: 0;
-  }
-
-  .kurierchikof-rs-form-recovery .custom-form-head{
-    line-height: 1.2;
-  }
-
-  .kurierchikof-rs-form-recovery .do-flex-direction-column{
-    flex-direction: column;
-  }
-  
-  .kurierchikof-rs-form-recovery .custom-btn-enter{
-    margin-bottom: 15px;
-    align-self: flex-start;
-  }
-
-  .kurierchikof-rs-form-recovery .custom-enter-msg{
-    margin-left: 0;
-    width: 100%;
-  }
-}
-
-@media (max-width: 384px) {
-  .kurierchikof-rs-form-recovery .custom-form-head{
-    font-size: 27px;
-  }
-}
-
-
 /* reload bootrap styles */
-.kurierchikof-rs-form-recovery .form-horizontal{
-  font-family: 'Open Sans', sans-serif; 
+
+.kurierchikof-rs-form-recovery .form-horizontal {
+  font-family: 'Open Sans', sans-serif;
 }
 
-.kurierchikof-rs-form-recovery .form-group input{
+.kurierchikof-rs-form-recovery .form-group input {
   background-color: #f4f8f7;
   border-radius: 0;
   color: #929594;
@@ -165,6 +115,52 @@
   outline: none;
 }
 
-.kurierchikof-rs-form-recovery .form-group{
+.kurierchikof-rs-form-recovery .form-group {
   width: 55%;
+}
+
+@media (max-width: 1000px) {
+  .kurierchikof-rs-form-recovery .form-group {
+    width: 70% !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .kurierchikof-rs-form-recovery .form-group {
+    width: 90% !important;
+  }
+}
+
+@media (max-width: 568px) {
+  .kurierchikof-rs-form-recovery .form-group {
+    width: 100%;
+  }
+
+  .kurierchikof-rs-form-recovery .form-horizontal {
+    padding: 0;
+  }
+
+  .kurierchikof-rs-form-recovery .custom-form-head {
+    line-height: 1.2;
+  }
+
+  .kurierchikof-rs-form-recovery .do-flex-direction-column {
+    flex-direction: column;
+  }
+
+  .kurierchikof-rs-form-recovery .custom-btn-enter {
+    margin-bottom: 15px;
+    align-self: flex-start;
+  }
+
+  .kurierchikof-rs-form-recovery .custom-enter-msg {
+    margin-left: 0;
+    width: 100%;
+  }
+}
+
+@media (max-width: 384px) {
+  .kurierchikof-rs-form-recovery .custom-form-head {
+    font-size: 27px;
+  }
 }
