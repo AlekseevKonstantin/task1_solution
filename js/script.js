@@ -1,9 +1,7 @@
 $(document).ready(function(){
 
   function parseField(value){
-    if(!/^[+-_]?\d+$/gi.test(value)){
-        return value.replace(/[a-zA-Z]+/gi,'');
-    }
+    return  value.replace(/[^-+()0-9\s]/gi,'');
   }
 
   $('#phoneNum').keyup(function(){
