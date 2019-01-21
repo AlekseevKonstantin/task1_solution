@@ -83,13 +83,14 @@
 
 .kurierchikof-rs-form-recovery .custom-btn-enter {
   background-color: rgb(84, 175, 58);
-  font-size: 13px;
+  font-size: 14px;
   color: #fff;
   font-weight: bold;
   line-height: 1.538;
   text-align: center;
-  padding: 13px 33px 11px 33px;
+  padding: 10px 33px 9px 33px;
   font-family: 'Myriad Pro Regular', sans-serif;
+  letter-spacing: .33px;
 }
 
 .kurierchikof-rs-form-recovery .custom-btn-enter:hover {

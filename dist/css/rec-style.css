@@ -679,7 +679,7 @@ button.close{-webkit-appearance:none;padding:0;cursor:pointer;background:transpa
 .kurierchikof-rs-form-recovery .custom-form-label{font-size:14px;color:#424242;line-height:1.2;font-weight:normal}
 .kurierchikof-rs-form-recovery .custom-kod-caption{font-size:12px;color:#929594;line-height:1.667;text-align:left;margin-bottom:0;background-color:transparent;border:0;outline:0}
 .kurierchikof-rs-form-recovery .custom-kod-caption:hover{text-decoration:none}.kurierchikof-rs-form-recovery .custom-kod-caption i{margin-right:6px}
-.kurierchikof-rs-form-recovery .custom-btn-enter{background-color:#54af3a;font-size:13px;color:#fff;font-weight:bold;line-height:1.538;text-align:center;padding:13px 33px 11px 33px;font-family:'Myriad Pro Regular',sans-serif}
+.kurierchikof-rs-form-recovery .custom-btn-enter{background-color:#54af3a;font-size:14px;color:#fff;font-weight:bold;line-height:1.538;text-align:center;padding:10px 33px 9px 33px;font-family:'Myriad Pro Regular',sans-serif;letter-spacing:.33px}
 .kurierchikof-rs-form-recovery .custom-btn-enter:hover{color:#fff}.kurierchikof-rs-form-recovery .custom-enter-msg{font-size:12px;color:#929594;line-height:1.2;text-align:left;margin-bottom:0;margin-left:16px}
 .kurierchikof-rs-form-recovery .custom-enter-msg a{color:#929594;text-decoration:underline}
 .kurierchikof-rs-form-recovery .custom-img-wrapper{width:120px;height:50px}.kurierchikof-rs-form-recovery .do-flex{display:flex;align-items:center}

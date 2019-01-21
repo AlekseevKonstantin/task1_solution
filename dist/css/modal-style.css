@@ -678,7 +678,7 @@ button.close{-webkit-appearance:none;padding:0;cursor:pointer;background:transpa
 .kurierchikof-rs-modal a,.kurierchikof-rs-modal a:hover{text-decoration:none}.kurierchikof-rs-modal .left-col{position:relative;background-color:#fff;width:58%;border-top-left-radius:15px;border-bottom-left-radius:15px}
 .kurierchikof-rs-modal .right-col{position:relative;height:358px;width:42%;background:url('../img/bg.jpg') 50% 50% no-repeat;background-size:cover;border-top-right-radius:15px;border-bottom-right-radius:15px}
 .kurierchikof-rs-modal .btn-group{margin-top:10px}.kurierchikof-rs-modal .input-field{font-size:13px;background-color:#f4f8f7 !important;color:#929594 !important;border:0;outline:0;border-radius:0;box-shadow:none}
-.kurierchikof-rs-modal .custom-btn-enter{font-family:'Myriad Pro Regular',sans-serif;background-color:#54af3a;color:#fff;padding:13px 30px 12px 30px;font-size:13px;border:0;text-align:center}
+.kurierchikof-rs-modal .custom-btn-enter{font-family:'Myriad Pro Regular',sans-serif;background-color:#54af3a;color:#fff;padding:10px 30px 9px 30px;font-size:14px;border:0;text-align:center;letter-spacing:.33px}
 .kurierchikof-rs-modal .custom-btn-enter:hover{color:#fff}.kurierchikof-rs-modal .custom-link-pass{margin-left:19px;font-size:13px;color:#929594;font-weight:bold}
 .kurierchikof-rs-modal .custom-text-msg{font-size:12px;color:#929594;line-height:1.2;text-align:left;height:40px;margin-top:9px;padding-right:15px;padding-left:7px}
 .kurierchikof-rs-modal .custom-text-msg a{color:#929594;text-decoration:underline}
@@ -687,7 +687,7 @@ button.close{-webkit-appearance:none;padding:0;cursor:pointer;background:transpa
 .kurierchikof-rs-modal .custom-modal-title-grey{font-size:26px;color:#444;font-weight:500}
 .kurierchikof-rs-modal .custom-modal-title-white{color:#fff !important;text-align:center;margin-left:-12px}
 .kurierchikof-rs-modal .custom-modal-caption{font-size:13px;color:#fff;font-weight:500;line-height:1.538;text-align:center;margin-top:8px;padding:0 20px;width:100%}
-.kurierchikof-rs-modal .custom-btn-default{color:#fff;border-color:#fff;background-color:transparent;padding:8px 18px 9px 18px;margin-top:0;font-size:13px;line-height:1.538;text-align:center}
+.kurierchikof-rs-modal .custom-btn-default{color:#fff;border-color:#fff;background-color:transparent;padding:9px 18px 8px 18px;margin-top:0;font-size:14px;line-height:1.538;text-align:center;font-family:'Myriad Pro Regular',sans-serif;letter-spacing:.33px}
 .kurierchikof-rs-modal .custom-btn-default:hover{background-color:transparent;color:#fff;border-color:#fff}
 .kurierchikof-rs-modal .right-col-img{position:absolute;bottom:0;right:-7%;width:100%;height:auto}
 .kurierchikof-rs-modal .left-col-img{position:absolute;top:-8%;left:-9.5%;width:126px;height:99px}

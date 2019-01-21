@@ -81,12 +81,13 @@
 .kurierchikof-rs-form-reg .custom-btn-reg {
   font-family: 'Myriad Pro Regular', sans-serif;
   background-color: rgb(84, 175, 58);
-  font-size: 13px;
+  font-size: 14px;
   color: rgb(255, 255, 255);
   font-weight: normal;
   text-align: center;
-  padding: 11px 32px 10px 32px;
+  padding: 10px 32px 9px 32px;
   margin-right: 18px;
+  letter-spacing: .33px;
 }
 
 .kurierchikof-rs-form-reg .custom-btn-reg:hover {

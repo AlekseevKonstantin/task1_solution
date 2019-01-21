@@ -679,7 +679,7 @@ button.close{-webkit-appearance:none;padding:0;cursor:pointer;background:transpa
 .kurierchikof-rs-form-reg select::-ms-expand{display:none}.kurierchikof-rs-form-reg select:hover{cursor:pointer}
 .kurierchikof-rs-form-reg .custom-form-head{font-size:35px;color:#424242;text-transform:uppercase;line-height:.571;text-align:center;margin-top:61px}
 .kurierchikof-rs-form-reg .custom-form-caption{font-size:18px;color:#616161;line-height:1.2;text-align:center;margin-top:29px;margin-bottom:35px;padding:0 15px}
-.kurierchikof-rs-form-reg .custom-btn-reg{font-family:'Myriad Pro Regular',sans-serif;background-color:#54af3a;font-size:13px;color:#fff;font-weight:normal;text-align:center;padding:11px 32px 10px 32px;margin-right:18px}
+.kurierchikof-rs-form-reg .custom-btn-reg{font-family:'Myriad Pro Regular',sans-serif;background-color:#54af3a;font-size:14px;color:#fff;font-weight:normal;text-align:center;padding:10px 32px 9px 32px;margin-right:18px;letter-spacing:.33px}
 .kurierchikof-rs-form-reg .custom-btn-reg:hover{color:#fff}.kurierchikof-rs-form-reg .custom-reg-msg{font-size:12px;color:#929594;line-height:1.2;text-align:left;margin-bottom:0}
 .kurierchikof-rs-form-reg .do-flex{display:flex;align-items:center}.kurierchikof-rs-form-reg .inner-addon .fas{position:absolute;padding:10px;pointer-events:none;color:#929594}
 .kurierchikof-rs-form-reg .left-addon .custom-icon{left:20px;top:2px}.kurierchikof-rs-form-reg .left-addon .custom-arrow-down,.kurierchikof-rs-form-reg .left-addon .custom-arrow-down15{top:0;font-size:14px}

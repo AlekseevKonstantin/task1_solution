@@ -86,10 +86,11 @@
   font-family: 'Myriad Pro Regular', sans-serif;
   background-color: #54af3a;
   color: #fff;
-  padding: 13px 30px 12px 30px;
-  font-size: 13px;
+  padding: 10px 30px 9px 30px;
+  font-size: 14px;
   border: none;
   text-align: center;
+  letter-spacing: .33px;
 }
 
 .kurierchikof-rs-modal .custom-btn-enter:hover {
@@ -171,11 +172,13 @@
   color: #fff;
   border-color: #fff;
   background-color: transparent;
-  padding: 8px 18px 9px 18px;
+  padding: 9px 18px 8px 18px;
   margin-top: 0px;
-  font-size: 13px;
+  font-size: 14px;
   line-height: 1.538;
   text-align: center;
+  font-family: 'Myriad Pro Regular', sans-serif;
+  letter-spacing: .33px;
 }
 
 .kurierchikof-rs-modal .custom-btn-default:hover {
