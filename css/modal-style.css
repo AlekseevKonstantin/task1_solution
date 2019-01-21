@@ -1,7 +1,52 @@
+@font-face {
+  font-family: 'Myriad Pro Regular';
+  src: url('../fonts/MyriadPro-Regular.eot');
+  src: url('../fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/MyriadPro-Regular.woff') format('woff'),
+  url('../fonts/MyriadPro-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+  
+@font-face {
+  font-family: 'Open Sans Regular';
+  src: url('../fonts/OpenSans-Regular.eot');
+  src: url('../fonts/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/OpenSans-Regular.woff') format('woff'),
+  url('../fonts/OpenSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.kurierchikof-rs-modal p,
+.kurierchikof-rs-modal h1,
+.kurierchikof-rs-modal h2,
+.kurierchikof-rs-modal h3,
+.kurierchikof-rs-modal h4,
+.kurierchikof-rs-modal h5,
+.kurierchikof-rs-modal h6,
+.kurierchikof-rs-modal a,
+.kurierchikof-rs-modal button,
+.kurierchikof-rs-modal div,
+.kurierchikof-rs-modal span{
+  font-family: 'Open Sans Regular', sans-serif;
+}
+
+.kurierchikof-rs-modal button:active, 
+.kurierchikof-rs-modal button:active{
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.kurierchikof-rs-modal button::-moz-focus-inner {
+  border: 0 !important;
+  box-shadow: none !important;
+}
+
 /* custom classes */
 
 .kurierchikof-rs-modal a,
-a:hover {
+.kurierchikof-rs-modal a:hover {
   text-decoration: none;
 }
 
@@ -38,7 +83,7 @@ a:hover {
 }
 
 .kurierchikof-rs-modal .custom-btn-enter {
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Myriad Pro Regular', sans-serif;
   background-color: #54af3a;
   color: #fff;
   padding: 13px 30px 12px 30px;
@@ -215,13 +260,12 @@ a:hover {
 .kurierchikof-rs-modal .modal-dialog {
   width: 711px;
   height: 358px !important;
-  font-family: 'Open Sans', sans-serif;
   margin: 100px auto;
 }
 
 .kurierchikof-rs-modal .modal-title {
   margin-top: 44px;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Myriad Pro Regular', sans-serif;
   font-size: 26px;
   color: #444444;
 }

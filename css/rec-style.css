@@ -1,3 +1,48 @@
+@font-face {
+  font-family: 'Myriad Pro Regular';
+  src: url('../fonts/MyriadPro-Regular.eot');
+  src: url('../fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/MyriadPro-Regular.woff') format('woff'),
+  url('../fonts/MyriadPro-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+  
+@font-face {
+  font-family: 'Open Sans Regular';
+  src: url('../fonts/OpenSans-Regular.eot');
+  src: url('../fonts/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/OpenSans-Regular.woff') format('woff'),
+  url('../fonts/OpenSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.kurierchikof-rs-form-recovery p,
+.kurierchikof-rs-form-recovery h1,
+.kurierchikof-rs-form-recovery h2,
+.kurierchikof-rs-form-recovery h3,
+.kurierchikof-rs-form-recovery h4,
+.kurierchikof-rs-form-recovery h5,
+.kurierchikof-rs-form-recovery h6,
+.kurierchikof-rs-form-recovery a,
+.kurierchikof-rs-form-recovery button,
+.kurierchikof-rs-form-recovery div,
+.kurierchikof-rs-form-recovery span{
+  font-family: 'Open Sans Regular', sans-serif;
+}
+
+.kurierchikof-rs-form-recovery button:active, 
+.kurierchikof-rs-form-recovery button:active{
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.kurierchikof-rs-form-recovery button::-moz-focus-inner {
+  border: 0 !important;
+  box-shadow: none !important;
+}
+
 /* custom styles */
 
 .kurierchikof-rs-form-recovery .custom-form-head {
@@ -44,7 +89,7 @@
   line-height: 1.538;
   text-align: center;
   padding: 13px 33px 11px 33px;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Myriad Pro Regular', sans-serif;
 }
 
 .kurierchikof-rs-form-recovery .custom-btn-enter:hover {
@@ -102,10 +147,6 @@
 }
 
 /* reload bootrap styles */
-
-.kurierchikof-rs-form-recovery .form-horizontal {
-  font-family: 'Open Sans', sans-serif;
-}
 
 .kurierchikof-rs-form-recovery .form-group input {
   background-color: #f4f8f7;

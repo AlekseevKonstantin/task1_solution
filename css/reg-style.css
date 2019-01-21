@@ -1,3 +1,48 @@
+@font-face {
+  font-family: 'Myriad Pro Regular';
+  src: url('../fonts/MyriadPro-Regular.eot');
+  src: url('../fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/MyriadPro-Regular.woff') format('woff'),
+  url('../fonts/MyriadPro-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+  
+@font-face {
+  font-family: 'Open Sans Regular';
+  src: url('../fonts/OpenSans-Regular.eot');
+  src: url('../fonts/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/OpenSans-Regular.woff') format('woff'),
+  url('../fonts/OpenSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.kurierchikof-rs-form-reg p,
+.kurierchikof-rs-form-reg h1,
+.kurierchikof-rs-form-reg h2,
+.kurierchikof-rs-form-reg h3,
+.kurierchikof-rs-form-reg h4,
+.kurierchikof-rs-form-reg h5,
+.kurierchikof-rs-form-reg h6,
+.kurierchikof-rs-form-reg a,
+.kurierchikof-rs-form-reg button,
+.kurierchikof-rs-form-reg div,
+.kurierchikof-rs-form-reg span{
+  font-family: 'Open Sans Regular', sans-serif;
+}
+
+.kurierchikof-rs-form-reg button:active, 
+.kurierchikof-rs-form-reg button:active{
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.kurierchikof-rs-form-reg button::-moz-focus-inner {
+  border: 0 !important;
+  box-shadow: none !important;
+}
+
 .kurierchikof-rs-form-reg select {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -34,7 +79,7 @@
 }
 
 .kurierchikof-rs-form-reg .custom-btn-reg {
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Myriad Pro Regular', sans-serif;
   background-color: rgb(84, 175, 58);
   font-size: 13px;
   color: rgb(255, 255, 255);
@@ -110,10 +155,6 @@
 }
 
 /* reload bootrap styles */
-
-.kurierchikof-rs-form-reg .form-horizontal {
-  font-family: 'Open Sans', sans-serif;
-}
 
 .kurierchikof-rs-form-reg .form-group input,
 .kurierchikof-rs-form-reg .form-group select {
